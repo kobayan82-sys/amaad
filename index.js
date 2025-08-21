@@ -4,7 +4,8 @@ import fetch from "node-fetch";
 import pino from "pino";
 import pinoHttp from "pino-http";
 import dotenv from "dotenv";
-import { AmazonApi } from "amazon-paapi";
+import pkg from "amazon-paapi";
+const { AmazonApi } = pkg;
 
 dotenv.config();
 
