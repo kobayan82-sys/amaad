@@ -1,0 +1,19 @@
+{
+  "name": "paapi-backend",
+  "version": "1.0.0",
+  "description": "Amazon PA-API + Google Suggest proxy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "amazon-paapi": "^1.0.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.2.0",
+    "pino-http": "^10.3.0"
+  }
+}
